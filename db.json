@@ -1,0 +1,204 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Noise-Cancelling Headphones",
+      "price": 129.99,
+      "category": "Electronics",
+      "image": "https://picsum.photos/seed/headphones/600/600",
+      "description": "Over-ear headphones with active noise cancelling and 30 hours of battery life. Soft ear cushions keep you comfortable all day.",
+      "rating": 4.6,
+      "stock": 24
+    },
+    {
+      "id": 2,
+      "name": "Smart Fitness Watch",
+      "price": 89.99,
+      "category": "Electronics",
+      "image": "https://picsum.photos/seed/smartwatch/600/600",
+      "description": "Tracks steps, heart rate and sleep with a bright color display. Water resistant and lasts up to 7 days per charge.",
+      "rating": 4.3,
+      "stock": 40
+    },
+    {
+      "id": 3,
+      "name": "Portable Bluetooth Speaker",
+      "price": 59.99,
+      "category": "Electronics",
+      "image": "https://picsum.photos/seed/speaker/600/600",
+      "description": "Compact speaker with deep bass and a splash-proof body. Perfect for the beach, the park or your desk.",
+      "rating": 4.4,
+      "stock": 55
+    },
+    {
+      "id": 4,
+      "name": "4K Action Camera",
+      "price": 149,
+      "category": "Electronics",
+      "image": "https://picsum.photos/seed/actioncam/600/600",
+      "description": "Record sharp 4K video with built-in image stabilization. Comes with a waterproof case and mounting kit.",
+      "rating": 4.5,
+      "stock": 18
+    },
+    {
+      "id": 5,
+      "name": "Mechanical Keyboard",
+      "price": 79.5,
+      "category": "Electronics",
+      "image": "https://picsum.photos/seed/keyboard/600/600",
+      "description": "Tactile mechanical switches with soft white backlighting. Built for fast, satisfying typing.",
+      "rating": 4.7,
+      "stock": 32
+    },
+    {
+      "id": 6,
+      "name": "Classic Denim Jacket",
+      "price": 74,
+      "category": "Fashion",
+      "image": "https://picsum.photos/seed/denimjacket/600/600",
+      "description": "A timeless medium-wash denim jacket with a relaxed fit. Easy to layer in any season.",
+      "rating": 4.4,
+      "stock": 27
+    },
+    {
+      "id": 7,
+      "name": "Leather Crossbody Bag",
+      "price": 98,
+      "category": "Fashion",
+      "image": "https://picsum.photos/seed/crossbodybag/600/600",
+      "description": "Smooth leather bag with an adjustable strap and two zip pockets. Small enough for daily errands, big enough for essentials.",
+      "rating": 4.6,
+      "stock": 15
+    },
+    {
+      "id": 8,
+      "name": "Canvas Low-Top Sneakers",
+      "price": 54.99,
+      "category": "Fashion",
+      "image": "https://picsum.photos/seed/sneakers/600/600",
+      "description": "Lightweight canvas sneakers with cushioned soles. A clean everyday look that goes with everything.",
+      "rating": 4.2,
+      "stock": 60
+    },
+    {
+      "id": 9,
+      "name": "Merino Wool Scarf",
+      "price": 39,
+      "category": "Fashion",
+      "image": "https://picsum.photos/seed/woolscarf/600/600",
+      "description": "Soft, warm merino wool scarf that does not itch. Available in a calm charcoal gray.",
+      "rating": 4.5,
+      "stock": 35
+    },
+    {
+      "id": 10,
+      "name": "Aviator Sunglasses",
+      "price": 45,
+      "category": "Fashion",
+      "image": "https://picsum.photos/seed/sunglasses/600/600",
+      "description": "Classic metal-frame aviators with UV400 protection. Light on the nose and great for driving.",
+      "rating": 4.1,
+      "stock": 48
+    },
+    {
+      "id": 11,
+      "name": "Ceramic Table Lamp",
+      "price": 49.99,
+      "category": "Home",
+      "image": "https://picsum.photos/seed/tablelamp/600/600",
+      "description": "Hand-glazed ceramic base with a linen shade. Gives your room a warm, cozy glow.",
+      "rating": 4.5,
+      "stock": 22
+    },
+    {
+      "id": 12,
+      "name": "Linen Throw Blanket",
+      "price": 42,
+      "category": "Home",
+      "image": "https://picsum.photos/seed/throwblanket/600/600",
+      "description": "Breathable washed linen blanket with fringed edges. Perfect for the sofa or the foot of the bed.",
+      "rating": 4.3,
+      "stock": 30
+    },
+    {
+      "id": 13,
+      "name": "Cast Iron Skillet",
+      "price": 34.95,
+      "category": "Home",
+      "image": "https://picsum.photos/seed/castironskillet/600/600",
+      "description": "Pre-seasoned 10-inch skillet that holds heat evenly. Works on the stove, in the oven or over a fire.",
+      "rating": 4.8,
+      "stock": 42
+    },
+    {
+      "id": 14,
+      "name": "Scented Soy Candle Set",
+      "price": 28,
+      "category": "Home",
+      "image": "https://picsum.photos/seed/soycandles/600/600",
+      "description": "Set of three hand-poured soy candles in lavender, vanilla and cedar. Each burns for about 25 hours.",
+      "rating": 4.4,
+      "stock": 50
+    },
+    {
+      "id": 15,
+      "name": "Bamboo Storage Basket Set",
+      "price": 36.5,
+      "category": "Home",
+      "image": "https://picsum.photos/seed/bamboobaskets/600/600",
+      "description": "Three nesting baskets woven from natural bamboo. Great for tidy shelves, towels and toys.",
+      "rating": 4.2,
+      "stock": 26
+    },
+    {
+      "id": 16,
+      "name": "Vitamin C Face Serum",
+      "price": 24.99,
+      "category": "Beauty",
+      "image": "https://picsum.photos/seed/vitaminserum/600/600",
+      "description": "Lightweight serum that brightens dull skin and evens skin tone. Absorbs quickly with no sticky feeling.",
+      "rating": 4.5,
+      "stock": 70
+    },
+    {
+      "id": 17,
+      "name": "Hydrating Face Moisturizer",
+      "price": 19.5,
+      "category": "Beauty",
+      "image": "https://picsum.photos/seed/moisturizer/600/600",
+      "description": "Daily cream with hyaluronic acid for all-day moisture. Gentle enough for sensitive skin.",
+      "rating": 4.6,
+      "stock": 65
+    },
+    {
+      "id": 18,
+      "name": "Matte Lipstick Collection",
+      "price": 32,
+      "category": "Beauty",
+      "image": "https://picsum.photos/seed/lipstick/600/600",
+      "description": "Four creamy matte shades in a gift box. Long-wearing color that does not dry out your lips.",
+      "rating": 4.3,
+      "stock": 38
+    },
+    {
+      "id": 19,
+      "name": "Argan Oil Hair Treatment",
+      "price": 22,
+      "category": "Beauty",
+      "image": "https://picsum.photos/seed/arganoil/600/600",
+      "description": "Nourishing oil that tames frizz and adds shine. Use a few drops on damp or dry hair.",
+      "rating": 4.4,
+      "stock": 45
+    },
+    {
+      "id": 20,
+      "name": "Rose Water Facial Mist",
+      "price": 14.99,
+      "category": "Beauty",
+      "image": "https://picsum.photos/seed/rosemist/600/600",
+      "description": "Refreshing mist made with pure rose water. Spritz it any time your skin feels tired.",
+      "rating": 4.2,
+      "stock": 80
+    }
+  ]
+}

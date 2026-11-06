@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #1b2a2f;
+  --color-shelf: #eef2ef;
+  --color-pine: #1f6f5c;
+  --color-pine-dark: #175546;
+  --color-tag: #ffc83d;
+  --color-muted: #5f706a;
+  --color-rule: #d5ddd8;
+  --color-alert: #b3261e;
+
+  --font-display: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Public Sans", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-shelf font-sans text-ink antialiased;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply font-display tracking-tight;
+  }
+}
+
+/* The one memorable element: a price tag with a notched edge. */
+@utility price-tag {
+  background-color: var(--color-tag);
+  color: var(--color-ink);
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  padding: 0.25rem 1.1rem 0.25rem 0.6rem;
+  clip-path: polygon(
+    0 0,
+    calc(100% - 10px) 0,
+    100% 50%,
+    calc(100% - 10px) 100%,
+    0 100%
+  );
+}
+
+/* One orchestrated moment: the hero tag drops in once on page load. */
+@keyframes tag-drop {
+  from {
+    opacity: 0;
+    transform: translateY(-12px) rotate(-4deg);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@utility animate-tag-drop {
+  animation: tag-drop 600ms ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* People who ask their system for less motion get a calm interface. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
